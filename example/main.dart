@@ -1,5 +1,7 @@
 import 'package:prompter_qh/src/terminal.dart';
 
 void main() {
-  print('Hello world!');
+  var terminal = new Terminal();
+
+  terminal.printPrompt('Hello World!');
 }
