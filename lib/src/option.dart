@@ -1,6 +1,6 @@
 class Option {
-  String lable;
+  String label;
   dynamic value;
 
-  Option(this.lable, this.value);
+  Option(this.label, this.value);
 }
