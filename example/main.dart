@@ -9,5 +9,4 @@ void main() {
 
   var prompter = new Prompter();
   prompter.ask('What color do you want?', options);
-  
 }
