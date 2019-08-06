@@ -10,4 +10,6 @@ void main() {
   ];
 
   terminal.printOptions(options);
+  var response = terminal.collectInput();
+  print(response);
 }
