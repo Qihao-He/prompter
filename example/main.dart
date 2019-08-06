@@ -1,9 +1,13 @@
 import 'package:prompter_qh/src/terminal.dart';
+import 'package:prompter_qh/src/option.dart';
 
 void main() {
   var terminal = new Terminal();
-  terminal.clearScreen();
-  terminal.printPrompt('Hello World!');
-  var input = terminal.collectInput();
-  print('You just entered: $input');
+
+  var options = [
+    new Option('I want red', '#f00'),
+    new Option('I want blue', '#00f'),
+  ];
+
+  terminal.printOptions(options);
 }
