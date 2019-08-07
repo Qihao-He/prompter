@@ -2,7 +2,7 @@ name: prompter_qh
 version: 0.0.2
 description: Library to create CLI wizards
 author: Qihao He <qihao.he4@gmail.com>
-homepage: https://www.google.com
+homepage: https://github.com/Qihao-He/prompter
 
 environment:
   sdk: '<3.0.0'
