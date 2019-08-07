@@ -1,5 +1,4 @@
-import 'package:prompter_qh/src/option.dart';
-import 'package:prompter_qh/src/Prompter.dart';
+import 'package:prompter_qh/prompter_qh.dart';
 
 void main() {
   final options = [
