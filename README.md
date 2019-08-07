@@ -1,0 +1,1 @@
+This is prompt terminal. User can put questions and options in the option field and provide a questionair to other cliens.
