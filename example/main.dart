@@ -7,5 +7,10 @@ void main() {
   ];
 
   final prompter = new Prompter();
-  print(prompter.askBinary('Do you like Dart?'));
+  
+  String colorCode = prompter.askMultiple('Select a color', options);
+
+  bool answer = prompter.askBinary('Do you like this lib?');
+  print(colorCode);
+  print(answer);
 }
