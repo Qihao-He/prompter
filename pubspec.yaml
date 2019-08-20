@@ -1,6 +1,6 @@
 name: prompter_qh
 version: 0.0.2
-description: Library to create CLI wizards
+description: Library to create CLI wizards, create multi-option questionnaire in terminal and provide list of option choosen at the end.
 author: Qihao He <qihao.he4@gmail.com>
 homepage: https://github.com/Qihao-He/prompter
 
